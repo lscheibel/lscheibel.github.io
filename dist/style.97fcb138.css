@@ -1,0 +1,12 @@
+.result {
+  display: none;
+}
+
+*:checked {
+  background-color: lightseagreen;
+}
+
+#n1:checked.m1:checked {
+  display: inline-block;
+  background-color: red;
+}
