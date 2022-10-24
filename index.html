@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lennard Scheibel</title>
+
+    <style>
+        :root {
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 500;
+
+            color-scheme: light;
+            color: rgba(0, 0, 0, 0.87);
+            background-color: #f3f3f3;
+
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            min-height: 100svh;
+        }
+
+        .stack {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        a {
+            color: rgba(0, 0, 0, 0.87);
+            opacity: 0.33;
+            transition: opacity 200ms;
+        }
+
+        a:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: min(max(calc(min(1vh, 1vw) * 10), 2rem), 3rem);
+            line-height: 1;
+            margin: 1rem 0
+        }
+
+        .link-button {
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+<div class="stack" style="width: 100%; justify-content: center; align-items: center; flex: 1">
+    <h1>Hey, it's me! 👋</h1>
+    <div class="row">
+        <a class="link-button" href="https://github.com/lscheibel" aria-label="Github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>
+            </svg>
+        </a>
+        <a class="link-button" href="mailto:contact@lennardscheibel.de" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="m3 7 9 6 9-6"/>
+            </svg>
+        </a>
+        <a class="link-button" href="https://twitter.com/LennardScheibel" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497-3.753C20.18 7.773 21.692 5.25 22 4.009z"/>
+            </svg>
+        </a>
+        <a class="link-button" href="https://tjsol.itch.io/" aria-label="Itch.io">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M12 5h3.5a5 5 0 0 1 0 10H10l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"/>
+                <path d="m14 15 4.07 4.284a2.3 2.3 0 0 0 3.925-2.023l-1.6-8.232"/>
+                <path d="M8 9v2"/>
+                <path d="M7 10h2"/>
+                <path d="M14 10h2"/>
+            </svg>
+        </a>
+    </div>
+</div>
+<a style="padding: 0.5rem" href="/impressum.json">Impressum</a>
+</body>
+</html>
